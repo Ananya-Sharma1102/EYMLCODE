@@ -1,4 +1,4 @@
-# EYMLCODE
+# CITIZEN SERVICES- EY TECHATHON
 ChatSewa.ai - Government Scheme Recommendation and Document Verification System
 This project demonstrates a recommendation engine that suggests relevant government schemes to users based on their demographic information, including income, family size, age, and location. Additionally, it integrates document verification functionality using machine learning (ML) models, such as Random Forest and Gradient Boosting, to predict the most relevant schemes for the users.
 
