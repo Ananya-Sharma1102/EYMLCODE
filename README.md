@@ -19,9 +19,6 @@ Matplotlib
 Seaborn
 scikit-learn
 You can install the required libraries using pip:
-
-bash
-Copy code
 pip install pandas numpy matplotlib seaborn scikit-learn
 Dataset
 The dataset used in this project is synthetic and includes the following columns:
@@ -32,25 +29,17 @@ Age: The age of the user.
 Location: The user's location (Urban or Rural).
 Eligible_Scheme: The government scheme(s) the user is eligible for.
 Example data:
-plaintext
-Copy code
 Income | Family_Size | Age | Location | Eligible_Scheme
 50000  | 4           | 35  | Urban    | Scheme_A
 30000  | 5           | 60  | Rural    | Scheme_B
 ...
 How to Use
 Clone the repository to your local machine:
-
-bash
-Copy code
 git clone https://github.com/your-username/ChatSewa-ai.git
 cd ChatSewa-ai
 Make sure you have all the dependencies installed (as mentioned above).
 
 Run the main Python script to train the models and visualize the results:
-
-bash
-Copy code
 python recommendation_system.py
 The script will display various visualizations including:
 
@@ -62,8 +51,6 @@ A boxplot comparing income and age distributions across different schemes.
 The script will also output the predictions for a new user based on their demographic profile.
 
 Example of Output:
-plaintext
-Copy code
 Random Forest Accuracy: 0.87
 Gradient Boosting Accuracy: 0.85
 
